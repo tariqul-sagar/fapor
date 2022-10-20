@@ -26,6 +26,22 @@ body{
 	color: #ffffff;
 	background-color: #b5a263;
 }
+.title{
+	color: #24282f;
+	text-align: center;
+}
+.title_h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.underline{
+	margin: 28px auto;
+	width: 7%;
+	height: 2px;
+	background-color: #b5a263;
+}
 /*Common CSS File end*/
 
 
@@ -127,3 +143,28 @@ header{
 }
 .c_next_icon{}
 /*Banner CSS end*/
+
+/*Business CSS start*/
+.business{
+	padding: 100px 0 120px;
+	background-color: #ffffff;
+}
+.business_paragraph{
+	padding: 0 90px;
+	text-align: center;
+}
+.business_card{
+	margin-top: 80px;
+	text-align: center;
+}
+.b_img{}
+.business_card h2{
+	margin: 20px 0 8px;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.business_card p{
+	padding: 0 5px;
+}
+/*Business CSS end*/

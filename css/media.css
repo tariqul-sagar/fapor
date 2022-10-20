@@ -56,6 +56,29 @@
 		display: none;
 	}
 	/*Banner end*/
+
+	/*Business start*/
+	.business{
+		padding: 70px 0;
+	}
+	.business_paragraph {
+	    padding: 0;
+	}
+	.business_card {
+	    margin-top: 40px;
+	}
+	.business_card p{
+		padding: 0;
+	}
+	.title_h1 {
+	    font-size: 18px;
+	    line-height: 30px;
+	}
+	.underline {
+	    margin: 15px auto;
+	    width: 25%;
+	}
+	/*Business end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -115,6 +138,28 @@
 		margin-right: -50px;
 	}
 	/*Banner end*/
+
+	/*Business start*/
+	.business{
+		padding: 70px 0;
+	}
+	.business_paragraph {
+	    padding: 0 25px;
+	}
+	.business_card {
+	    margin-top: 40px;
+	}
+	.business_card p{
+		padding: 0 75px;
+	}
+	.title_h1 {
+	    font-size: 20px;
+	}
+	.underline {
+	    margin: 18px auto;
+	    width: 15%;
+	}
+	/*Business end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -173,6 +218,28 @@
 		margin-right: -70px;
 	}
 	/*Banner end*/
+
+	/*Business start*/
+	.business{
+		padding: 80px 0 100px;
+	}
+	.business_paragraph {
+	    padding: 0 45px;
+	}
+	.business_card {
+	    margin-top: 40px;
+	}
+	.business_card h2 {
+	    margin: 16px 0 6px;
+	}
+	.business_card p{
+		padding: 0;
+	}
+	.underline {
+	    margin: 20px auto;
+	    width: 12%;
+	}
+	/*Business end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -187,6 +254,12 @@
 		margin-right: -100px;
 	}
 	/*Banner end*/
+
+	/*Business start*/
+	.business_card p{
+		padding: 0;
+	}
+	/*Business end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
