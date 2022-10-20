@@ -79,6 +79,30 @@
 	    width: 25%;
 	}
 	/*Business end*/
+
+	/*Who start*/
+	.who{
+		padding: 70px 0;
+	}
+	.who_img img {
+	    width: 100%;
+	}
+	.who_content{
+	    padding: 35px 25px 55px;
+	    text-align: center;
+	}
+	.w_title{
+		text-align: center;
+	}
+	.who_content p {
+	    margin-bottom: 25px;
+	    padding: 0;
+	    text-align: center;
+	}
+	.btn_who {
+	    font-size: 15px;
+	}
+	/*Who end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -130,11 +154,11 @@
 	    font-size: 15px;
 	}
 	.c_prev{
-		margin-top: 5px;
+		margin-top: -15px;
 		margin-left: -50px;
 	}
 	.c_next{
-		margin-top: 5px;
+		margin-top: -15px;
 		margin-right: -50px;
 	}
 	/*Banner end*/
@@ -160,6 +184,27 @@
 	    width: 15%;
 	}
 	/*Business end*/
+
+	/*Who start*/
+	.who{
+		padding: 80px 0 100px;
+	}
+	.who_img img {
+	    width: 100%;
+	}
+	.who_content{
+	    padding: 35px 25px 55px;
+	    text-align: center;
+	}
+	.w_title{
+		text-align: center;
+	}
+	.who_content p {
+	    margin-bottom: 32px;
+	    padding: 0 50px;
+	    text-align: center;
+	}
+	/*Who end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -210,11 +255,11 @@
 	    margin-bottom: 60px;
 	}
 	.c_prev{
-		margin-top: 5px;
+		margin-top: -20px;
 		margin-left: -70px;
 	}
 	.c_next{
-		margin-top: 5px;
+		margin-top: -20px;
 		margin-right: -70px;
 	}
 	/*Banner end*/
@@ -240,17 +285,38 @@
 	    width: 12%;
 	}
 	/*Business end*/
+
+	/*Who start*/
+	.who{
+		padding: 80px 0 100px;
+	}
+	.who_img img {
+	    width: 100%;
+	}
+	.who_content{
+	    padding: 35px 25px 55px;
+	    text-align: center;
+	}
+	.w_title{
+		text-align: center;
+	}
+	.who_content p {
+	    margin-bottom: 35px;
+	    padding: 0 65px;
+	    text-align: center;
+	}
+	/*Who end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	/*Banner start*/
 	.c_prev{
-		margin-top: 40px;
+		margin-top: -25px;
 		margin-left: -100px;
 	}
 	.c_next{
-		margin-top: 40px;
+		margin-top: -25px;
 		margin-right: -100px;
 	}
 	/*Banner end*/
@@ -260,17 +326,32 @@
 		padding: 0;
 	}
 	/*Business end*/
+
+	/*Who start*/
+	.who_underline {
+	    margin: 23px 0;
+	    width: 21%;
+	}
+	.who_content {
+	    margin-top: 0;
+	    padding: 42px 15px;
+	}
+	.who_content p {
+	    margin-bottom: 35px;
+	    padding-right: 0;
+	}
+	/*Who end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 	/*Banner start*/
 	.c_prev{
-		margin-top: 40px;
+		margin-top: -20px;
 		margin-left: -108px;
 	}
 	.c_next{
-		margin-top: 40px;
+		margin-top: -20px;
 		margin-right: -108px;
 	}
 	/*Banner end*/
@@ -280,12 +361,22 @@
 @media (min-width: 1400px) {
 	/*Banner start*/
 	.c_prev{
-		margin-top: 35px;
+		margin-top: -35px;
 		margin-left: -150px;
 	}
 	.c_next{
-		margin-top: 35px;
+		margin-top: -35px;
 		margin-right: -150px;
 	}
 	/*Banner end*/
+
+	/*Who start*/
+	.who_content {
+	    margin-top: 38px;
+	}
+	.who_underline {
+	    margin: 30px 0;
+	    width: 15%;
+	}
+	/*Who end*/
 }

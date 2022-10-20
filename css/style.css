@@ -23,8 +23,8 @@ body{
 	transition: .33s ease-in-out;
 }
 .btn_common:hover{
-	color: #ffffff;
-	background-color: #b5a263;
+	color: #ffffff !important;
+	background-color: #b5a263 !important;
 }
 .title{
 	color: #24282f;
@@ -125,9 +125,10 @@ header{
 .btn_banner:hover{
 	color: #b5a263 !important;
 	border: 1px solid #b5a263 !important;
+	background-color: transparent !important;
 }
 .c_prev{
-	margin-top: 25px;
+	margin-top: -15px;
 	margin-left: -180px;
 }
 .c_prev_icon,.c_next_icon{
@@ -138,7 +139,7 @@ header{
 }
 .c_prev_icon{}
 .c_next{
-	margin-top: 25px;
+	margin-top: -15px;
 	margin-right: -180px;
 }
 .c_next_icon{}
@@ -168,3 +169,34 @@ header{
 	padding: 0 5px;
 }
 /*Business CSS end*/
+
+/*Who CSS start*/
+.who{
+	padding: 100px 0 120px;
+	background-color: #f7f7f7;
+}
+.who_wrapper{
+	-webkit-box-shadow: 5px 5px 15px 20px rgba(233,233,233,1);
+	-moz-box-shadow: 5px 5px 15px 20px rgba(233,233,233,1);
+	box-shadow: 5px 5px 15px 20px rgba(233,233,233,1);
+	background-color: #ffffff;
+}
+.who_img{}
+.who_img img{}
+.who_content{
+	margin-top: 10px;
+	padding: 65px 25px;
+}
+.w_title{
+	text-align: left;
+}
+.who_underline{
+	margin: 28px 0;
+    width: 17%;
+}
+.who_content p{
+	margin-bottom: 50px;
+	padding-right: 10px;
+}
+.btn_who{}
+/*Who CSS end*/
