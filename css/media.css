@@ -1,0 +1,218 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*Header start*/
+	.c_navbar{
+		--bs-navbar-padding-y: .8em;
+	}
+	.nav-logo {
+	    width: 85%;
+	}
+	.c_icon{
+		background-color: #b5a263;
+	}
+	.menu{
+		text-align: right;
+	}
+	.c_nav{
+		margin: -4px 0;
+		padding: 0;
+	}
+	.c_nav:hover{
+		border-bottom: 4px solid transparent;
+	}
+	.c_nav a{
+		margin-right: 12px;
+	}
+	.c_nav:last-child a{
+		margin-right: 12px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	/*Header end*/
+
+	/*Banner start*/
+	.banner{
+		padding: 70px 0;
+	}
+	.c_ind {
+	    margin-bottom: -35px;
+	}
+	.c_inner p {
+	    margin-top: 10px !important;
+	    font-size: 15px;
+	}
+	.c_inner h1 {
+	    margin: 10px 0 20px !important;
+	    font-size: 28px;
+	}
+	.btn_banner {
+	    margin-bottom: 45px;
+	    font-size: 15px;
+	}
+	.c_prev{
+		display: none;
+	}
+	.c_next{
+		display: none;
+	}
+	/*Banner end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*Header start*/
+	.c_navbar{
+		--bs-navbar-padding-y: .8em;
+	}
+	.c_icon{
+		background-color: #b5a263;
+	}
+	.menu{
+		text-align: right;
+	}
+	.c_nav{
+		margin: -4px 0;
+		padding: 0;
+	}
+	.c_nav:hover{
+		border-bottom: 4px solid transparent;
+	}
+	.c_nav a{
+		margin-right: 12px;
+	}
+	.c_nav:last-child a{
+		margin-right: 12px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	/*Header end*/
+
+	/*Banner start*/
+	.banner{
+		padding: 70px 0;
+	}
+	.c_ind {
+	    margin-bottom: -35px;
+	}
+	.c_inner p {
+	    margin-top: 10px !important;
+	    font-size: 16px;
+	}
+	.c_inner h1 {
+	    margin: 12px 0 18px !important;
+	    font-size: 34px;
+	}
+	.btn_banner {
+	    margin-bottom: 45px;
+	    font-size: 15px;
+	}
+	.c_prev{
+		margin-top: 5px;
+		margin-left: -50px;
+	}
+	.c_next{
+		margin-top: 5px;
+		margin-right: -50px;
+	}
+	/*Banner end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*Header start*/
+	.c_navbar{
+		--bs-navbar-padding-y: .8em;
+	}
+	.c_icon{
+		background-color: #b5a263;
+	}
+	.menu{
+		text-align: right;
+	}
+	.c_nav{
+		margin: -4px 0;
+		padding: 0;
+	}
+	.c_nav:hover{
+		border-bottom: 4px solid transparent;
+	}
+	.c_nav a{
+		margin-right: 12px;
+	}
+	.c_nav:last-child a{
+		margin-right: 12px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	/*Header end*/
+
+	/*Banner start*/
+	.banner{
+		padding: 80px 0;
+	}
+	.c_ind {
+	    margin-bottom: -45px;
+	}
+	.c_inner p {
+	    margin-top: 20px !important;
+	    font-size: 17px;
+	}
+	.c_inner h1 {
+	    margin: 12px 0 18px !important;
+	    font-size: 40px;
+	}
+	.btn_banner {
+	    margin-bottom: 60px;
+	}
+	.c_prev{
+		margin-top: 5px;
+		margin-left: -70px;
+	}
+	.c_next{
+		margin-top: 5px;
+		margin-right: -70px;
+	}
+	/*Banner end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*Banner start*/
+	.c_prev{
+		margin-top: 40px;
+		margin-left: -100px;
+	}
+	.c_next{
+		margin-top: 40px;
+		margin-right: -100px;
+	}
+	/*Banner end*/
+}
+
+/*Extra large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*Banner start*/
+	.c_prev{
+		margin-top: 40px;
+		margin-left: -108px;
+	}
+	.c_next{
+		margin-top: 40px;
+		margin-right: -108px;
+	}
+	/*Banner end*/
+}
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	/*Banner start*/
+	.c_prev{
+		margin-top: 35px;
+		margin-left: -150px;
+	}
+	.c_next{
+		margin-top: 35px;
+		margin-right: -150px;
+	}
+	/*Banner end*/
+}

@@ -1,0 +1,129 @@
+/*Font Family start*/
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+/*Font Family end*/
+
+/*Common CSS File start*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #24282f;
+}
+.btn_common{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #b5a263;
+	border: 1px solid #b5a263;
+	border-radius: 30px;
+	text-transform: uppercase;
+	transition: .33s ease-in-out;
+}
+.btn_common:hover{
+	color: #ffffff;
+	background-color: #b5a263;
+}
+/*Common CSS File end*/
+
+
+/*Header start*/
+header{
+	background-color: #24282f;
+}
+.c_navbar{
+	--bs-navbar-padding-y: 0;
+}
+.nav-logo{}
+.menu{}
+.c_nav{
+	margin: 0;
+	padding: 18px 0;
+	border-bottom: 4px solid transparent;
+	transition: .3s ease-in-out;
+}
+.c_nav:hover{
+	border-bottom: 4px solid #b5a263;
+}
+.c_nav a{
+	margin: 0 15px;
+	font-size: 14px;
+	color: #ffffff !important;
+	text-transform: uppercase;
+	transition: .3s ease-in-out;
+}
+.c_nav:last-child a{
+	margin-right: 0;
+}
+.c_nav a:hover{
+	color: #b5a263 !important;
+}
+/*Header end*/
+
+/*Banner CSS start*/
+.banner{
+	padding: 100px 0;
+	width: 100%;
+	background-image: linear-gradient(rgba(43,47,54,0.90),rgba(43,47,54,0.90)),url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.carousel_content{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.c_ind{
+	    margin-bottom: -60px;
+}
+.c_ind [data-bs-target]{
+	width: 12px;
+    height: 12px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.c_ind [data-bs-target].active{
+	background-color: #ffffff;
+}
+.c_inner{}
+.c_inner p{
+	margin-top: 60px !important;
+	font-size: 18px;
+	font-weight: 300;
+}
+.c_inner h1{
+	margin: 15px 0 20px !important;
+	font-size: 48px;
+	font-weight: 600;
+}
+.c_item{}
+.btn_banner{
+	margin-bottom: 100px;
+	color: #ffffff;
+	background-color: #b5a263;
+}
+.btn_banner:hover{
+	color: #b5a263 !important;
+	border: 1px solid #b5a263 !important;
+}
+.c_prev{
+	margin-top: 25px;
+	margin-left: -180px;
+}
+.c_prev_icon,.c_next_icon{
+	padding: 0 8px;
+	font-size: 20px;
+	color: #b5a263;
+	background-color: #31353b;
+}
+.c_prev_icon{}
+.c_next{
+	margin-top: 25px;
+	margin-right: -180px;
+}
+.c_next_icon{}
+/*Banner CSS end*/
