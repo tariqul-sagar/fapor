@@ -30,8 +30,19 @@
 	}).mouseleave(function(){
 		$(this).find('.rc_img').css({'top':'0'});
 		$(this).find('.rc_overlay').css({'top':'100%'});
-	});		
+	});
+
+	
 
 })(jQuery);
+
+	jQuery(document).ready(function($) {
+	            $('.counter').counterUp({
+	                delay: 10,
+	                time: 3000
+	            });
+	        });
+
+
 
 

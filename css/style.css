@@ -302,9 +302,6 @@ header{
 	padding: 25px 0;
 	background-color: #f7f7f7;
 }
-.acc_button::after {
-    color: #b5a263;
-}
 .h_acc_item:not(:nth-child(2)) button{
 	border-top: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
@@ -314,3 +311,29 @@ header{
 }
 .h_acc_body{}
 /*How We Work CSS end*/
+
+/*Counter CSS start*/
+.count{
+	padding: 100px 0 120px;
+	background-color: #272b32;
+}
+.count_content{
+	text-align: center;
+	color: #ffffff;
+}
+.counter{
+	font-size: 28px;
+	font-weight: 600;
+	color: #b5a263;
+}
+.count_h2{
+	margin: 30px 0 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.count_underline{
+	margin: 22px auto;
+	width: 20%;
+}
+.counter_p{}
+/*Counter CSS end*/
