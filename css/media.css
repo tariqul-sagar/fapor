@@ -103,6 +103,45 @@
 	    font-size: 15px;
 	}
 	/*Who end*/
+
+	/*Recent start*/
+	.recent{
+		padding: 70px 0;
+	}
+	.rc_wrapper ul li {
+	    margin: 6px 12px 0px;
+	    padding: 5px;
+	}
+	.recent_card{
+		margin-top: 20px;
+	}
+	.btn-work {
+	    margin-top: 40px;
+	}
+	/*Recent end*/
+
+	/*How start*/
+	.how{
+		padding: 70px 0;
+	}
+	.how_para {
+	    margin-bottom: 40px;
+	}
+	.how_img{
+		text-align: center;
+	}
+	.how_img img{
+		float: none !important;
+	}
+	.how_imgg{
+		width: 55%;
+	}
+	.how_content{
+		margin-top: 40px;
+		padding: 0;
+		text-align: center;
+	}
+	/*How end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -205,6 +244,42 @@
 	    text-align: center;
 	}
 	/*Who end*/
+
+	/*Recent start*/
+	.recent{
+		padding: 70px 0;
+	}
+	.rc_wrapper ul li {
+	    margin: 6px 8px 10px;
+	    padding: 5px;
+	}
+	.btn-work {
+	    margin-top: 40px;
+	}
+	/*Recent end*/
+
+	/*How start*/
+	.how{
+		padding: 70px 0;
+	}
+	.how_para {
+	    margin-bottom: 40px;
+	}
+	.how_img{
+		text-align: center;
+	}
+	.how_img img{
+		float: none !important;
+	}
+	.how_imgg{
+		width: 40%;
+	}
+	.how_content{
+		margin-top: 40px;
+		padding: 0 22px;
+		text-align: center;
+	}
+	/*How end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -306,6 +381,36 @@
 	    text-align: center;
 	}
 	/*Who end*/
+
+	/*Recent start*/
+	.recent{
+		padding: 80px 0 100px;
+	}
+	.rc_wrapper ul li {
+	    margin: 12px 5px 25px;
+	    padding: 5px 12px;
+	}
+	/*Recent end*/
+
+	/*How start*/
+	.how{
+		padding: 80px 0 100px;
+	}
+	.how_img{
+		text-align: center;
+	}
+	.how_img img{
+		float: none !important;
+	}
+	.how_imgg{
+		width: 40%;
+	}
+	.how_content{
+		margin-top: 40px;
+		padding: 0 85px;
+		text-align: center;
+	}
+	/*How end*/
 }
 
 /*Large devices (desktops, 992px and up)*/

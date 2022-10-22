@@ -224,6 +224,7 @@ header{
 .rc_wrapper ul li.active{
 	color: #ffffff;
 	background-color: #b5a263;
+	border-radius: 10px;
 	cursor: pointer;
 }
 .recent_card{
@@ -253,7 +254,7 @@ header{
 	background-color: rgba(52, 55, 62, 0.8);
 	z-index: 10;
 	text-align: center;
-	transition: .33s;
+	transition: .50s;
 
 }
 .rc_overlay i{
@@ -267,4 +268,49 @@ header{
 	text-transform: uppercase;
 }
 .rc_body{}
+.btn-work{
+	margin-top: 50px;
+}
+.btn_work{}
 /*Recent CSS end*/
+
+/*How We Work CSS start*/
+.how{
+	padding: 100px 0 120px;
+	background-color: #f7f7f7;
+}
+.how_img{}
+.how_img img{}
+.how_imgg{}
+.how_content{}
+.how_para{
+	margin-bottom: 45px;
+}
+.accord{}
+.h_accordion{}
+.h_acc_item{
+	background-color: #f7f7f7;
+}
+.acc_header{}
+.h_acc_item span{
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #b5a263;
+}
+.h_acc_item button{
+	padding: 25px 0;
+	background-color: #f7f7f7;
+}
+.acc_button::after {
+    color: #b5a263;
+}
+.h_acc_item:not(:nth-child(2)) button{
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.acc_button:not(.collapsed){
+	color: #000000;
+}
+.h_acc_body{}
+/*How We Work CSS end*/
