@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Media Query File -->
     <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!-- jQuery File -->
+    <script src="js/jquery.min.js"></script>
   </head>
   <body>
     
@@ -199,9 +201,7 @@
                   <div class="underline who_underline"></div>
                 </div>
                 <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch.</p>
-                <button type="button" class="btn btn_common btn_who">
-                  Learn More
-                </button>
+                <button type="button" class="btn btn_common btn_who">Learn More</button>
               </div>
             </div>
           </div>
@@ -210,12 +210,182 @@
     </section>
     <!-- Who Section end -->
 
+    <!-- Recent Work Section start -->
+    <section class="recent">
+      <div class="container">
+        <div class="title">
+          <h1 class="title_h1 m-0">Recent works</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="recent-wrapper">
+              <!-- Menu -->
+              <div class="rc_wrapper text-center">
+                <ul class="filter">
+                  <li class="active" data-filter="*">All</li>
+                  <li data-filter=".web">Web</li>
+                  <li data-filter=".creative">Creative</li>
+                  <li data-filter=".print">Print</li>
+                  <li data-filter=".media">Media</li>
+                  <li data-filter=".crafts">Crafts</li>
+                </ul>
+              </div>
+            </div>
+            <div class="projects">
+              <div class="row">
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item crafts">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work1.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item web">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work2.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item creative">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work3.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item crafts">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work4.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item print">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work5.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item media">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work6.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item web">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work7.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+
+                <!-- Card start -->
+                <div class="col-lg-3 g-0 item creative">
+                  <div class="recent_card">
+                    <div class="rc_head">
+                      <img class="img-fluid rc_img" src="images/work8.jpg" alt="Fapor">
+                      <div class="rc_r"></div>
+                      <div class="rc_overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Lightbox view</p>
+                      </div>
+                    </div>
+                    <div class="rc_body"></div>
+                  </div>
+                </div>
+                <!-- Card end -->
+              </div>
+            </div>
+            <button type="button" class="btn btn_common btn_work">Show All</button>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- Recent Work Section end -->
+
 
     <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/f8d55cd96a.js" crossorigin="anonymous"></script>
+    <!-- Isotope JS File -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f8d55cd96a.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS File -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS File -->
     <script src="js/script.js"></script>
+
+
+    <script>
+      
+    </script>
   </body>
 </html>

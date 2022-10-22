@@ -57,11 +57,14 @@ header{
 .c_nav{
 	margin: 0;
 	padding: 18px 0;
-	border-bottom: 4px solid transparent;
+	border-bottom: 3px solid transparent;
 	transition: .3s ease-in-out;
 }
+.c_nav:last-child{
+	margin-right: 0;
+}
 .c_nav:hover{
-	border-bottom: 4px solid #b5a263;
+	border-bottom: 3px solid #b5a263;
 }
 .c_nav a{
 	margin: 0 15px;
@@ -200,3 +203,68 @@ header{
 }
 .btn_who{}
 /*Who CSS end*/
+
+/*Recent CSS start*/
+.recent{
+	padding: 100px 0 120px;
+}
+.recent-wrapper{}
+.rc_wrapper{}
+.rc_wrapper ul{}
+.rc_wrapper ul li{
+	margin: 20px 8px 45px;
+	padding: 7px 15px;
+	color: #24282f;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s ease-in-out;
+	cursor: pointer;
+}
+.rc_wrapper ul li.active{
+	color: #ffffff;
+	background-color: #b5a263;
+	cursor: pointer;
+}
+.recent_card{
+	position: relative;
+	overflow: hidden;
+}
+.rc_head{}
+.rc_head img{
+	width: 100%;
+	height: 100%;
+}
+.rc_img{}
+.rc_r{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;	
+}
+.rc_overlay{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(52, 55, 62, 0.8);
+	z-index: 10;
+	text-align: center;
+	transition: .33s;
+
+}
+.rc_overlay i{
+	margin-top: 30%;
+	font-size: 18px;
+	color: #b5a263;
+}
+.rc_overlay p{
+	margin: 0;
+	color: #b5a263;
+	text-transform: uppercase;
+}
+.rc_body{}
+/*Recent CSS end*/
