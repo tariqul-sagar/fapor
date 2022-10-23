@@ -337,3 +337,57 @@ header{
 }
 .counter_p{}
 /*Counter CSS end*/
+
+/*Team CSS start*/
+.team{
+	padding: 100px 0 120px;
+	background-color: #f7f7f7;
+}
+.team_wrapper{
+	margin-top: 45px;
+}
+.team_img{}
+.team_img img{}
+.team_content{}
+.team_h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #b5a263;
+	text-transform: uppercase;
+}
+.team_p1{
+	margin: 15px 0;
+}
+.team_p2{
+	margin-bottom: 20px;
+}
+.team_content ul{}
+.team_content ul li{}
+.team_content ul li a{
+	color: #24282f;
+	transition: .33s ease-in-out;
+}
+.team_content ul li a:hover{
+	color: #b5a263;
+}
+/*Team CSS end*/
+
+/*Feature CSS start*/
+.feature{
+	padding: 100px 0 120px;
+}
+.feature_paragraph{
+	margin-bottom: 35px !important;
+}
+.feature_wrapper{
+	margin-top: 50px;
+}
+.feature_img{
+	text-align: center;
+}
+.feature_img img{
+	width: 70%;
+}
+.feature_content{}
+.feature_content p{}
+/*Feature CSS end*/

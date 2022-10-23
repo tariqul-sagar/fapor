@@ -45,9 +45,11 @@
 	    margin: 5px 0 20px !important;
 	    font-size: 28px;
 	}
+	.btn_common {
+	    font-size: 15px;
+	}
 	.btn_banner {
 	    margin-bottom: 45px;
-	    font-size: 15px;
 	}
 	.c_prev{
 		display: none;
@@ -161,6 +163,58 @@
 	    padding: 0;
 	}
 	/*Counter end*/
+
+	/*Team start*/
+	.team{
+		padding: 70px 0;
+	}
+	.team_wrapper {
+	    margin-top: 20px;
+	}
+	.team_content{
+		text-align: center;
+	}
+	.team_img {
+	    text-align: center;
+	}
+	.team_h2 {
+	    margin-top: 15px !important;
+	}
+	.team_p1 {
+	    margin: 10px 0;
+	}
+	.team_p2 {
+		margin-bottom: 12px;
+	    padding: 0;
+	}
+	.team_content ul li a{
+		font-size: 18px;
+	}
+	/*Team end*/
+
+	/*Feature start*/
+	.feature{
+		padding: 70px 0;
+	}
+	.feature_paragraph {
+	     margin-bottom: 0px !important; 
+	}
+	.feature_wrapper {
+	    margin-top: 30px;
+	}
+	.feature_img {
+	    margin-bottom: 20px;
+	}
+	.feature_img img{
+		width: 32%;
+	}
+	.feature_content{
+		text-align: center;
+	}
+	.feature_content p {
+	    padding: 0;
+	}
+	/*Feature end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -207,17 +261,25 @@
 	    margin: 5px 0 18px !important;
 	    font-size: 34px;
 	}
-	.btn_banner {
-	    margin-bottom: 45px;
+	.btn_common {
 	    font-size: 15px;
 	}
-	.c_prev{
+	.btn_banner {
+	    margin-bottom: 45px;
+	}
+	/*.c_prev{
 		margin-top: -15px;
 		margin-left: -50px;
 	}
 	.c_next{
 		margin-top: -15px;
 		margin-right: -50px;
+	}*/
+	.c_prev{
+		display: none;
+	}
+	.c_next{
+		display: none;
 	}
 	/*Banner end*/
 
@@ -318,6 +380,57 @@
 	    padding: 0 100px;
 	}
 	/*Counter end*/
+
+	/*Team start*/
+	.team{
+		padding: 70px 0;
+	}
+	.team_wrapper {
+	    margin-top: 20px;
+	}
+	.team_content{
+		text-align: center;
+	}
+	.team_img {
+	    text-align: center;
+	}
+	.team_h2 {
+	    margin-top: 15px !important;
+	}
+	.team_p1 {
+	    margin: 10px 0;
+	}
+	.team_p2 {
+	    padding: 0 75px;
+	}
+	.team_content ul li a{
+		font-size: 20px;
+	}
+	/*Team end*/
+
+	/*Feature start*/
+	.feature{
+		padding: 70px 0;
+	}
+	.feature_paragraph {
+	     margin-bottom: 0px !important; 
+	}
+	.feature_wrapper {
+	    margin-top: 40px;
+	}
+	.feature_img {
+	    margin-bottom: 20px;
+	}
+	.feature_img img{
+		width: 16%;
+	}
+	.feature_content{
+		text-align: center;
+	}
+	.feature_content p {
+	    padding: 0 80px;
+	}
+	/*Feature end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -462,6 +575,45 @@
 		width: 30%;
 	}
 	/*Counter end*/
+
+	/*Team start*/
+	.team{
+		padding: 80px 0 100px;
+	}
+	.team_wrapper {
+	    margin-top: 30px;
+	}
+	.team_content{
+		text-align: center;
+	}
+	.team_img {
+	    text-align: center;
+	}
+	.team_h2 {
+	    margin-top: 15px !important;
+	}
+	.team_p1 {
+	    margin: 10px 0;
+	}
+	.team_p2 {
+	    padding: 0 30px;
+	}
+	.team_content ul li a{
+		font-size: 20px;
+	}
+	/*Team end*/
+
+	/*Feature start*/
+	.feature{
+		padding: 80px 0 100px;
+	}
+	.feature_paragraph {
+	     margin-bottom: 0px !important; 
+	}
+	.feature_img img{
+		width: 100%;
+	}
+	/*Feature end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -497,6 +649,12 @@
 	    padding-right: 0;
 	}
 	/*Who end*/
+
+	/*Team start*/
+	.team_p1 {
+	    margin: 12px 0;
+	}
+	/*Team end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
@@ -535,4 +693,10 @@
 	    width: 15%;
 	}
 	/*Who end*/
+
+	/*Team start*/
+	.team_content ul li a{
+		font-size: 18px;
+	}
+	/*Team end*/
 }
