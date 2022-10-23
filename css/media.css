@@ -215,6 +215,30 @@
 	    padding: 0;
 	}
 	/*Feature end*/
+
+	/*Testimonial start*/
+	.testimonial{
+		padding: 70px 0;
+	}
+	.f_carousel_img{
+		margin: 10px 0 20px;
+	}
+	.t_p1{
+		padding: 0;
+	}
+	.t_prev{
+		display: none;
+	}
+	.t_next{
+		display: none;
+	}
+	/*Testimonial end*/
+
+	/*Brand CSS start*/
+	.brand{
+		padding: 25px 0;
+	}
+	/*Brand CSS end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -431,6 +455,29 @@
 	    padding: 0 80px;
 	}
 	/*Feature end*/
+
+	/*Testimonial start*/
+	.testimonial{
+		padding: 70px 0;
+	}
+	.f_carousel_img{
+		margin: 10px 0 20px;
+	}
+	.t_prev{
+		margin-top: -60px;
+		margin-left: -40px;
+	}
+	.t_next{
+		margin-top: -60px;
+		margin-right: -40px;
+	}
+	/*Testimonial end*/
+
+	/*Brand CSS start*/
+	.brand{
+		padding: 30px 0;
+	}
+	/*Brand CSS end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -614,6 +661,29 @@
 		width: 100%;
 	}
 	/*Feature end*/
+
+	/*Testimonial start*/
+	.testimonial{
+		padding: 80px 0 100px;
+	}
+	.f_carousel_img{
+		margin: 10px 0 20px;
+	}
+	.t_prev{
+		margin-top: -60px;
+		margin-left: -60px;
+	}
+	.t_next{
+		margin-top: -60px;
+		margin-right: -60px;
+	}
+	/*Testimonial end*/
+
+	/*Brand CSS start*/
+	.brand{
+		padding: 40px 0;
+	}
+	/*Brand CSS end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -699,4 +769,13 @@
 		font-size: 18px;
 	}
 	/*Team end*/
+
+	/*Testimonial start*/
+	.t_prev{
+		margin-top: -70px;
+	}
+	.t_next{
+		margin-top: -70px;
+	}
+	/*Testimonial end*/
 }
