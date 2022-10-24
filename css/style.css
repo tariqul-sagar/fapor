@@ -289,21 +289,21 @@ header{
     background-image: none;
 }
 .acc_button::after {
+	margin-top: -10px;
     content: '\0FF0B';
-    font-size: 22px;
+    font-size: 26px;
 	font-weight: 700;
 	color: #b5a263;
-    transition: var(--bs-accordion-btn-icon-transition);
 }
 .accordion-button:not(.collapsed)::after {
     background-image: none;
 }
 .acc_button:not(.collapsed)::after {
     content: '\02212';
-    font-size: 22px;
+    font-size: 26px;
 	font-weight: 700;
 	color: #b5a263;
-    transition: var(--bs-accordion-btn-icon-transition);
+    transform: none;
 }
 .h_acc_item span{
 	margin-right: 10px;
