@@ -322,6 +322,11 @@ header{
 .acc_button:not(.collapsed){
 	color: #000000;
 }
+.acc_button:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
 .h_acc_body{}
 /*How We Work CSS end*/
 
